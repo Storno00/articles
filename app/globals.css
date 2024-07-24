@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --space: 14px;
+}
+
+.article-body h2 {
+  font-weight: bold;
+  font-size: 1.875rem; /* 30px */
+  line-height: 2.25rem; /* 36px */
+  margin: var(--space) 0;
+}
+
+.article-body h3 {
+  font-weight: bold;
+  font-size: 1.5rem; /* 24px */
+  line-height: 2rem; /* 32px */
+  margin: var(--space) 0;
+}
+
+.article-body h4 {
+  font-weight: bold;
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.75rem; /* 28px */
+  margin: var(--space) 0;
+}
+
+.article-body p {
+  margin: 10px 0;
+}
+
+.article-body ul {
+  list-style-type: disc;
+  margin-left: 35px;
+}
+
+.article-body ol {
+  list-style-type: decimal;
+  margin-left: 40px;
+}
+
+.article-body .ql-align-justify {
+  text-align: justify;
+}
+
+.article-body .ql-align-center {
+  text-align: center;
+}
+
+.article-body .ql-align-right {
+  text-align: right;
+}
+
+.article-body img {
+  height: 400px;
+  display: inline-block;
+}
+
+/* Editor settings */
+
+.ql-container img {
+  height: 400px;
+  display: inline-block;
+}
