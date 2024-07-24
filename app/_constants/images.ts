@@ -1,0 +1,1 @@
+export const ARTICLE_COVER_IMAGE = process.env.ARTICLE_COVER_IMAGE || 'https://res.cloudinary.com/dooqcjpph/image/upload/v1720346848/Contact%20App/default-banner_unl2vh.jpg';
